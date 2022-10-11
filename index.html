@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    <main class="main-box">
+        <section class="game-score">
+            <p>Letras erradas:<span id="fails-letters"></span></p>
+            <p>Falhas: <span id="fails-counter"></span></p>
+        </section>
+        <section class="game">
+            <section id="game-msg">
+                
+            </section>
+
+            <section id="word">
+              
+            </section>
+
+            <section id="input-section">
+                <input maxlength="1" type="text" name="animal-input">
+            </section>
+
+            <section id="command-section">
+                <button id="btn-letter-verify">Verificar</button>
+                <button id="btn-word-reflesh">Reiniciar</button>
+            </section>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
