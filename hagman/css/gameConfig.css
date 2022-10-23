@@ -1,0 +1,30 @@
+#game-config {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 30rem;
+    padding: 0 5rem 2rem 5rem;
+}
+
+#themes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#themes > button {
+    padding: 1rem;
+    border-radius: 10%;
+    border-style: none;
+    margin: .5rem;
+    font-size: 1.1rem;
+    background-color: rgb(88, 4, 161);
+    color: #fff;
+    cursor: pointer;
+}
+
+#themes > button:hover {
+    background-color: rgb(88, 4, 161);
+}

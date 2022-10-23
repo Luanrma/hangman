@@ -1,0 +1,78 @@
+
+.game-score {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 0 1rem 0 1rem;
+}
+
+#game {
+    width: 30rem;
+    padding: 0 5rem 2rem 5rem;
+}
+
+#game-msg {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 2rem 0;
+    height: 10rem;
+}
+
+#word {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1rem .5rem 1rem;
+    background-color: rgb(77, 77, 77);
+}
+
+#word .span_letter {
+    font-size: 40px;
+    margin: 0rem .5rem 0rem .5rem;
+}
+
+#input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-section input[name="animal-input"] {
+    text-align: center;
+
+    border-style: none;
+    font-size: 20px;
+    height: 2.5rem;
+    width: 2.5rem;    
+}
+
+#command-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#command-section > button {
+    margin: .2rem;
+    margin-top: 1rem;
+    height: 2.5rem;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#command-section #btn-letter-verify {
+    background-color: rgb(76, 241, 54);
+}
+
+#command-section #btn-word-reflesh {
+    background-color: rgb(6, 210, 247);
+}
+
+#command-section #btn-game-config {
+    height: 2.5rem;
+    font-size: 18px;
+    background-color: rgb(252, 229, 24);
+}

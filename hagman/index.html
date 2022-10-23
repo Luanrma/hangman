@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/game.css"/>
+    <link rel="stylesheet" href="./css/gameConfig.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+</head>
+
+<body>
+    <main class="main-box">
+        <section id="game-config">
+            <span>Escolha um tema</span>
+            <section id="themes">
+                <button value="animal">Animal</button>
+                <button value="pais">País</button>
+            </section>
+        </section>
+
+        <section id="game">
+            <section class="game-score">
+                <p>Letras erradas:<span id="fails-letters"></span></p>
+                <p>Falhas: <span id="fails-counter"></span></p>
+            </section>
+            <section id="game-msg">
+
+            </section>
+
+            <section id="word">
+
+            </section>
+
+            <section id="input-section">
+                <input maxlength="1" type="text" name="animal-input">
+            </section>
+
+            <section id="command-section">
+                <button id="btn-letter-verify">Verificar</button>
+                <button id="btn-word-reflesh">Reiniciar</button>
+
+                <button id="btn-game-config">Configuração</button>
+            </section>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
